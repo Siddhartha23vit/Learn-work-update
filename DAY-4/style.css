@@ -1,0 +1,98 @@
+.title{
+    text-align:center ;
+    border: 5px solid yellow;
+    background-color: darksalmon;
+}
+.country{
+    background-color: azure;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.person{
+    background-color: azure;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.text{
+    color: darkorange;
+    font-size: 110%;
+}
+.title2{
+    text-align:center;
+    border: 3px solid black;
+    background-color: skyblue;
+    font-family: sans-serif;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red   ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: wavy;
+  }
+  a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+    
+  }
+  
+  .menu a {
+    background-color: gold;
+    padding: 20px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-color: rgba(248, 14, 14, 0.747);
+    float: left;
+    width: 20%;
+    padding: 28px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  .body{
+      background-image: url(wave.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+  }
+    
